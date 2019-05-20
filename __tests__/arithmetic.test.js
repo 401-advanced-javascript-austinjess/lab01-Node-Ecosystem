@@ -5,21 +5,21 @@ const arithmetic = require('../lib/arithmetic.js');
 // add
 describe('inputs should be added together', () => {
   it('addition', () => {
-    expect(arithmetic.add(1, 3)).toEqual(4);
+    expect(arithmetic.add([1, 2, 3, 4])).toEqual(10);
   });
 });
 
 // subtract
 describe('inputs should be subtracted', () => {
   it('subtraction', () => {
-    expect(arithmetic.subtract(1, 3)).toEqual(-2);
+    expect(arithmetic.subtract([30, 10, 5])).toEqual(15);
   });
 });
 
 // multiply
 describe('inputs should be multiplied', () => {
   it('multiplication', () => {
-    expect(arithmetic.multiply(1, 3)).toEqual(3);
+    expect(arithmetic.multiply([1, 2, 3])).toEqual(6);
   });
 });
 
