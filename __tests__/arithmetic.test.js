@@ -30,8 +30,8 @@ describe('inputs should be divided', () => {
   });
 });
 
-// describe('array should only consist of numbers', () => {
-//   it('all elements are numbers', () => {
-//     expect(arithmetic.add([1, false, 3])).toEqual(null);
-//   });
-// });
+describe('array should only consist of numbers', () => {
+  it('all elements are not numbers', () => {
+    expect(arithmetic.add([1, 'hello', 3])).toEqual(NaN);
+  });
+});
