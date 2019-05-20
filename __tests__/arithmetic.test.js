@@ -29,3 +29,9 @@ describe('inputs should be divided', () => {
     expect(arithmetic.divide(3, 1)).toEqual(3);
   });
 });
+
+// describe('array should only consist of numbers', () => {
+//   it('all elements are numbers', () => {
+//     expect(arithmetic.add([1, false, 3])).toEqual(null);
+//   });
+// });
