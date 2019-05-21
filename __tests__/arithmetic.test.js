@@ -1,7 +1,7 @@
 'use strict';
 
 const arithmetic = require('../lib/arithmetic.js');
-const faker = require('faker');
+// const faker = require('faker');
 
 // const randomNumArr = faker.random.number().split('');
 
